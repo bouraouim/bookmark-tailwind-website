@@ -1,0 +1,22 @@
+{
+  "name": "apple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss style.css -o src/css/style.css",
+    "watch": "postcss style.css -o src/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^2.2.1"
+  }
+}
